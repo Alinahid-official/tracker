@@ -1,0 +1,15 @@
+.box{
+    width:95%;
+    height:fit-content;
+    padding:10px 10px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box img{
+    border-radius:30px;
+    /* color: rgba(0, 0, 0, 0.296); */
+}
+
+.bg_red{
+    background-color:red; 
+}

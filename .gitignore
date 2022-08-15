@@ -1,0 +1,36 @@
+# dependencies
+jira-be/node_modules
+jira-fe/node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# production
+build
+
+#ENV
+
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# misc
+.DS_Store
+.vscode
+
+.deta
+
+jira-be/package-lock.json
+jira-fe/package-lock.json

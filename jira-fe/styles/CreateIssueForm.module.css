@@ -1,0 +1,17 @@
+.title{
+    margin-top: 80px;
+    font-weight: 500;
+  }
+
+  .grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 528px 528px;
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 60px;
+  } 
+
+  .summary .input {
+    grid-column: 1/span 2;
+  }

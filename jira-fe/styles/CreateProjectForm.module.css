@@ -1,0 +1,151 @@
+/* @import url("https://cdn.syncfusion.com/ej2/material.css"); */
+
+
+.head{
+  margin-top: 80px;
+  font-weight: 500;
+}
+.grid{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 528px 528px;
+  gap: 30px;
+  margin-top: 40px;
+  margin-left: 60px;
+} 
+
+.label{
+  display: block;
+}
+/* .summary .input input {
+  grid-column: 1 / span 2;
+} */
+
+.select select{
+  width:300px;
+  height: 52px;
+  margin-top: 0.2rem;
+  padding: 0.1rem;
+  background-color: #F7F8FA;
+  border:0px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.star{
+  color: red;
+}
+
+.input{
+  margin-top: 0.3rem;
+}
+
+.multiInput{
+  width: 300px;
+  height: 52px;
+  border: 0px;
+  outline: none;
+}
+
+/* .multiInput{
+  width: 300px;
+  height: 52px;
+  /* margin-top: 0.2rem; */
+  /* border:0px; */
+  /* background-color: #F7F8FA; */
+ 
+  /* padding-left: 0.9rem; */
+  /* border-radius: 10px; */
+  /* outline: none; */
+/* } */ 
+
+.input input{
+  width: 300px;
+  height: 52px;
+  margin-top: 0.2rem;
+  background-color: #F7F8FA;
+  border:0px;
+  padding-left: 0.9rem;
+  border-radius: 10px;
+  outline: none;
+}
+.dateInput{
+  width: 300px;
+  height: 52px;
+  margin-top: 0.2rem;
+  background-color: #F7F8FA;
+  border:0px;
+  padding-left: 0.9rem;
+  border-radius: 10px;
+  outline: none;
+}
+.startDate{
+    margin-top: 10px; 
+    width: 300px;
+    height: 52px;  
+}
+
+.pro-btn{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  margin-left: 11rem;
+  gap: 50px;
+  margin-top: 3rem;
+  width: 528px;
+}
+
+.pro-btn .createBtn{
+  width: 260px;
+  height: 30px;
+  border: 0 ;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.pro-btn .resetBtn{
+  width: 260px;
+  height: 30px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.error {
+    color: #fc8181;
+    font-size: 0.75rem;
+    text-align: left;
+    margin-top: 0.25rem;
+  }
+  
+ .input .input-error{
+    border: 1px solid red;
+  border-color: #fc8181;
+}
+
+.select .input-error{
+  border: 1px solid red;
+border-color: #fc8181;
+}
+/* select.input-error */
+
+.date-range{
+  grid-column:  1/span 2;
+}
+
+
+.createBtn{
+  width: 100px;
+  margin-right: 20px;
+  gap: 20px;
+}
+
+.resetBtn{
+  width: 100px;
+}
+
+.createBtn:disabled{
+  opacity: 0.5;
+  cursor: default;
+}

@@ -1,0 +1,46 @@
+.dGrid{
+    display: grid;
+    grid-template-columns: repeat(2,30rem);
+    gap: 30px;
+}
+
+.select select{
+    width:100%;
+    height: 52px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #F7F8FA;
+    margin-top: 5px;
+}
+
+.apGrid{
+    display: grid;
+    grid-template-columns: repeat(2,14rem);
+    gap:10px;
+    margin-top: -10px;
+}
+
+.assignee-priority select{
+    
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.date{
+    font-size: 10px;
+    color: #85929C;
+}
+
+.label{
+    font-size: 10px;
+}
+.input input{
+    width:100%;
+    height: 52px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #F7F8FA;
+    margin-top: 5px;
+  }

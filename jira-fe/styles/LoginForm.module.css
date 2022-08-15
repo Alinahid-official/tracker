@@ -1,0 +1,57 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+
+.sideBar{
+    background-color: #1D262D;
+    height: 100vh;
+}
+.sideBar h1{
+    color: white;
+    margin: 7rem;
+}
+
+.form{
+    display: flex;
+    /* margin: 40px 0; */
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center */
+}
+
+.login-field label{
+    display: block;
+    margin: 5px;
+}
+
+.login-field input{
+    border: 0px;
+    background-color: #F7F8FA;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 3px;
+    color: #7D7D7E;
+    outline: none;
+}
+
+.password-forgot p{
+    justify-content:end;
+    text-align: end;
+    font-size: 10px;
+    color: #FE7912;
+}
+
+.btn{
+    width: 15rem;
+    text-align:center;
+    justify-content: center;
+    margin-left: 40px;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}

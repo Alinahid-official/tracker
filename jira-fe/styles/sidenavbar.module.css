@@ -1,0 +1,47 @@
+.container{
+    /* width: 25%; */
+    height: 100vh;
+    padding: 10px;
+    left: 0;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1D262D;
+    color: white;
+    font-family: Roboto;
+}
+
+.title{
+  font-size: 25px;
+}
+
+.fields a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.fields a:hover{
+  color: white;
+}
+
+.fields a h1{
+  font-size: 15px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #28343E;
+  padding: 10px;
+  font-weight: 100;
+}
+
+.fields a:active{
+  border-left: #FE7912;
+}
+.fields a h1:hover{
+  background-color: #1D262D;
+  color: #FE7912;
+  border-left:2px solid #FE7912;
+}
+
+

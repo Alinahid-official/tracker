@@ -1,0 +1,111 @@
+.color{
+    color: #FE7912;
+}
+
+.project{
+    margin-top: 15px;
+    background-color: #F7F8FA;
+    width: 70rem;
+    max-width: 100%;
+    padding: 0.2rem;
+    border-radius: 10px;
+}
+
+.project h1{
+    font-weight: 500;
+    color: #FE7912;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 60% auto;
+    gap: 25px;
+}
+
+.desc p{
+    color:#85929C;
+}
+
+.desc h4{
+    color: #1D262D;
+    font-weight: 400;
+}
+
+.details h2{
+  color:  #1D262D;
+  font-weight: 400;
+  margin-top: -3px;
+}
+.dGrid{
+    margin-top: -25px;
+    display: grid;
+    grid-template-columns: repeat(2,35%);
+    justify-content: space-between;
+}
+
+.type{
+   background-color: #b1b4b7;
+}
+
+.tFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tFlex p:nth-child(1){
+    color:#85929C;
+}
+
+.angular{
+    background-color: #1D262D;
+    color: white;
+    margin-top: 23px;
+    margin-bottom: 14px;
+    padding:0.2px 4px;
+    font-size: 10px;
+}
+
+.high{
+    background-color: #DC3545;
+    color: white;
+    margin-top: 23px;
+    margin-bottom: 14px;
+    padding:0.2px 4px;
+    font-size: 10px;
+}
+
+.comment h3{
+   font-weight: 400;
+   
+}
+.comment h3 span{
+    color:#FE7912;
+    font-size: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.cFlex{
+    margin-top: -25px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #85929C;
+    font-size: 10px;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+     margin-top: 30px;
+    text-align: center;
+}
+
+.right a{
+    margin-bottom: 30px;
+    background-color: #1D262D;
+    color: white;
+    padding: 3px 0;
+    width: 25rem;
+}

@@ -1,0 +1,35 @@
+.project{
+    margin-left: 2%;
+}
+
+.project td{
+    vertical-align:middle;
+    text-align:center;
+    padding:  2%;
+}
+
+.big{
+    font-size:500%
+}
+.yellow{
+    color:rgb(255, 204, 0)
+}
+.orange{
+    color : rgb(255, 85, 0)
+}
+.blue{
+    color : rgb(0, 17, 255)
+}
+.green{
+    color : green
+}
+
+.left{
+    font-size : 100%
+}
+
+.title{
+    color:  #FE7912;
+    font-weight: bold;
+    padding : 1% 0
+}
