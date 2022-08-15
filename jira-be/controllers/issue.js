@@ -23,17 +23,7 @@ issueRouter.post("/",userAuthFilter, async(req,res)=>{
             description : req.body.description,
         }).save()
         console.log(issue)
-        const response = await axios.post(`http://0.0.0.0:5000/index`,
-        {
-            issue_id : issue.id,
-            project_id : req.body.project_id,
-            document : `${issue.summary} ${issue.description}`
-        },
-        { headers :{ "Access-Control-Allow-Origin" : "*",
-          "Content-type": "Application/json",
-          // 'Authorization' : token
-        }})
-        console.log(response.data)
+
         const project = await Project.findByIdAndUpdate({_id:req.body.project_id},{$push:{issues : issue._id}})
         const id = issue.id
         let now = new Date()
